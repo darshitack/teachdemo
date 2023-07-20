@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+    <!--bannercode-->
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-10 col-12 mx-auto py-5">
+            <div class="main_content">
+              <form action="">
+                  <input type="text" id="cityname" placeholder="Enter your city" autocomplete="off">
+                  <input type="submit" value="Surch" id="submitBtn" >
+              </form>
+            </div> 
+            <div>
+              <div class="top_layer">
+                <p id="thisday">12 July Wednesday</p>
+                <p id="thistime">4:54 PM</p>
+              </div>
+              <div class="main_layer">
+                <p id="cityName">Get your city hear</p>
+                <div class="mid_layer data_hide">
+                  <p id="tamp"><span>0</span><sup>o</sup>C</p>
+                  <p id="tamp_status"><i class='fas fa-cloud-rain'></i></p>
+                </div>
+              </div>
+            </div> 
+          </div>
+          </div>
+        </div>
+    </div>
+    <!--footer code--> 
+    {{>footer}}
+
+    <script src="js/main.js">
+
+    </script>
+</body>
+</html>
